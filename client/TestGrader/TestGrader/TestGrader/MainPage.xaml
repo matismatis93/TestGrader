@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:TestGrader"
+             x:Class="TestGrader.MainPage">
+    <ScrollView>
+        <StackLayout Spacing="5" Padding="5">
+            <Button x:Name="showInfo" Text="O aplikacji"/>
+            <Button x:Name="takePhoto" Text="Zrób zdjęcie"/>
+            <Image x:Name="image"/>
+        </StackLayout>
+    </ScrollView>
+
+</ContentPage>
